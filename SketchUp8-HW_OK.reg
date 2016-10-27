@@ -1,0 +1,7 @@
+REGEDIT4
+
+; from https://github.com/wilfm/SkipI
+[HKEY_CURRENT_USER\Software\Google\SketchUp8\GLConfig\Display]
+"FIRST_TIME"=dword:00000001
+"HW_OK"=dword:00000001
+

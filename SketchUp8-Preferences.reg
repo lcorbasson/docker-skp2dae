@@ -1,0 +1,25 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Google\SketchUp8\MainFrame]
+"FirstTime"=dword:00000000
+"FirstTime_SU8M2"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Google\SketchUp8\Preferences]
+"AlwaysFixValidityErrors"=dword:00000001
+"CheckForUpdates"=dword:00000000
+"DefaultTemplate"="C:\\Program Files\\Google\\Google SketchUp 8\\Resources\\en-US\\Templates\\Temp01b - Simple.skp"
+"EnableCheckValidity"=dword:00000001
+"ExportInitialDirectory"="Z:\\home\\sketchup\\filestoconvert\\"
+"ImportDefaultId"="com.google.sketchup.importers.skp"
+"ImportInitialDirectory"="Z:\\home\\sketchup\\filestoconvert\\"
+"LengthFormat"=dword:00000001
+"LengthPrecision"=dword:00000001
+"LengthSnapping"=dword:00000001
+"LengthUnit"=dword:00000000
+"ShowInferenceTips"=dword:00000001
+"ShowStylesWarning"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Google\SketchUp8\WelcomeDialog]
+"AllowRevertToFree"=dword:00000000
+"ShowOnStartup"=dword:00000000
+
