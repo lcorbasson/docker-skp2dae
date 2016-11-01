@@ -9,7 +9,7 @@ find "$IMPORT_PATH" -iname "*.skp" | while read IMPORT_FILE; do
 	EXPORT_DIR="$(dirname "$EXPORT_FILE")"
 	SCRIPT="$EXPORT_FILE.rb"
 	if [ -w "$EXPORT_DIR" ]; then
-		sed /home/sketchup/ImportExportQuit.rb.tmpl \
+		sed /home/sketchup/ImportExportQuit.tmpl.rb \
 				-e 's,^\(\$IMPORT_FILE = \).*,\1"Z:'"$IMPORT_FILE"'",' \
 				-e 's,^\(\$EXPORT_FILE = \).*,\1"Z:'"$EXPORT_FILE"'",' \
 				> "$SCRIPT"

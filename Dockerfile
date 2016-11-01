@@ -88,7 +88,7 @@ RUN chmod +x /usr/local/bin/skp2dae
 RUN which skp2dae
 
 USER sketchup
-COPY ImportExportQuit.rb.tmpl /home/sketchup/
+COPY ImportExportQuit.tmpl.rb /home/sketchup/
 VOLUME /home/sketchup/filestoconvert
 
 WORKDIR /home/sketchup/filestoconvert
